@@ -1,16 +1,23 @@
 // components/About.js
 import React from "react";
+import Education from "../assests/education.png"
 
 function About() {
   return (
     <section id="about">
       <h2>About Me</h2>
+      <form className="AboutMeForm">
+          <ul >
+            <li><img className="educationlogo" src={Education} alt="education_logo"/>B.sc Chemistry</li>
+          </ul>
+        </form>
       <div>
         <div  className="pic">
         <img src="https://wallpapers.com/images/hd/luffy-3200-x-1800-picture-ao6tt30yuxjuvjlk.jpg" alt="luffy image "></img>
       
         </div>
       <div className="introduction ">
+       
       <p>
          I am Pradeep, from Salem. I am
         a chemistry graduate from Bharathidasan University, and I also completed
@@ -21,8 +28,7 @@ function About() {
         is incubated with IIT Madras. My goal is to Build a successful career as
         a software programmer. I have technical expertise in web development,
         software development, frameworks, HTML, CSS, JavaScript, mongodb,react
-        js and node js. I’m currently excited to use my technical skill and
-        knowledge in a reputable organization like yours.
+        js and node js. 
       </p>
       </div>
       </div>

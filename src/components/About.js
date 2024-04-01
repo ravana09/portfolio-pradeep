@@ -5,12 +5,14 @@ import githubIcon from '../assests/githubImage.png'
 import AboutImage from '../assests/aboutImage.png'
 import { Link } from 'react-router-dom';
 
+
+
 function About() {
   return (
     <section id="about" className="about-section">
       <div className="about-content">
-        <div className="image-container">
-          <img src={AboutImage} alt="avatar" />
+        <div >
+          <img className='aboutImg' src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToFqQqdcG7zPtLiCRKA_5JFf3QnLgkCc330A&usqp=CAU"alt="avatar" />
         </div>
         <div className="text-container">
           <h2>Pradeep</h2>

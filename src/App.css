@@ -2,13 +2,20 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   width: 100%;
   height: 100%;
-  text-shadow: 5px 2px 10px grey;
-  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 1%, rgb(255, 124, 0) 16%, rgb(255, 163, 77) 16%, rgb(228, 42, 14) 25%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 68%);
+  color: black;
+
+  background-color: rgb(251,251,252);
+/* background: linear-gradient(85deg, rgb(187, 213, 219) 31%, rgba(12, 206, 240, 0.849) 69%); */
+
 }
 
+a .btn {
+  transition: all 300ms ease;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,7 +35,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(16, 16, 16);
 }
 
 .App-link {
@@ -59,9 +66,9 @@
 
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
+
   background-color: #f2f2f2;
-  color: #333;
+  color: #0c0b0b;
   line-height: 1.6;
 }
 
@@ -86,14 +93,21 @@ header h1 {
   
 }
 
+.aboutImg{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left:150px
+}
+
 .headerh1 {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  color: white;
+  color: rgb(12, 1, 1);
   margin-left: 50px;
-  font-family: serif;
+ 
   font-size: 50px;
 }
 
@@ -108,7 +122,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #0c0000;
   text-decoration:none;
 }
 
@@ -122,7 +136,7 @@ section {
   height: 100%;
   padding: 20px;
   font-size:40px;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 5px;
 }
 
@@ -151,8 +165,8 @@ form textarea {
 }
 
 form button {
-  background-color: #333;
-  color: #fff;
+  background-color: #eee5e5;
+  color: #0a0000;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -161,6 +175,7 @@ form button {
 
 form button:hover {
   background-color: #555;
+  transform: scale(1.1);
 }
 
 /* Footer styles */
@@ -168,15 +183,15 @@ footer {
   text-align: center;
   padding: 10px 0;
   /* background-color:inherit; */
-  color: #f9f2f2;
+  color: #070000;
 }
 
 /* about css */
 
 #about{
-  /* background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 1%, rgb(255, 124, 0) 16%, rgb(255, 163, 77) 16%, rgb(228, 42, 14) 25%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%); */
+ 
   background-color: inherit;
-  color: white;
+  color:black;
   height: 750px;
 }
 
@@ -202,13 +217,13 @@ footer {
 }
 
 .image-container img {
-  max-width: 100%; /* Ensure image does not exceed container width */
+  max-width: 100%;
   height:300px;
   
 }
 
 .details-container {
-  flex: 2; /* Take up 2 parts of the available space */
+  flex: 2; 
 }
 .Aboutlogo{
   width: 30px ;
@@ -230,136 +245,294 @@ footer {
   border-radius: 20px;
   margin: 5px;
   font-size:15px;
-  background-color: #555;
+  background-color: #f3f0f0;
 }
 .aboutContactButton a {
-  color: white ;
+  color: black ;
 }
+
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.social-icons img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Enlarge image on hover */
+}
+
+
 /* Additional styling as needed */
 
 /* project css */
 .projects{
   background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(228, 42, 14) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
-  color: white;
+
   height: 750px;
 }
 
 /* contact css */
 #contact{
+  margin: 100px;
+  margin-bottom: 0px;
   background-color: inherit;
-  color: white;
   height: 750px;
-}
-
-.maillogo{
-  width: 50px;
-  height: 50px;
-}
-
-.social-icons a{
-  color: white;
-}
-
-/* Assuming you have a file named Header.css */
-
-/* Assuming you have a file named Header.css */
-
-.social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-bottom: 10px; 
-  font-size: 50px;
-  gap:2rem /* Adjust spacing between icon groups */
-}
-
-.social-icons div {
-  margin-right: 20px; /* Adjust spacing between icons within a group */
-}
-
-.social-icons img, .social-icons .Aboutlogo {
-  width: 30px; /* Adjust size as needed */
-  height: 30px; /* Adjust size as needed */
-  margin-right: 5px; /* Adjust spacing between icon and text */
-}
-
-.social-icons p, .social-icons a {
-  margin: 0;
-  font-size: 14px; /* Adjust font size as needed */
-}
-
-.social-icons a {
-  text-decoration: none; /* Remove underline */
-  color: #f8f4f4;
-  font-size: 30px; /* Change text color as needed */
-}
-
-/* Additional styling for phone number */
-.social-icons a[href^="tel"] {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit text color */
-}
-
-.contactLinks img {
-  position: relative;
-  top:45px
-}
-
-.contactLinks a{
-  position: relative;
-  bottom:10px
+  text-align: center;
+  padding: 50px 0;
 }
 
 .contact-list {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .contact-list li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px; /* Adjust spacing between list items */
+  margin: 0 40px;
+  padding: 5px;
 }
 
-.contact-list img {
-  width: 30px; /* Adjust image size as needed */
-  height: 30px; /* Adjust image size as needed */
-  margin-right: 10px; /* Adjust spacing between image and text */
+.contact-list li img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
-.contact-list a {
-  text-decoration: none; /* Remove underlines from links */
-  color: #f4eded; /* Change link color as needed */
+.contact-list li img:hover {
+  transform: scale(1.1); 
 }
+
+form{
+  border: 2px solid rgb(56, 53, 53);
+  border-radius: 20px;
+
+}
+
 
 
 
 /* About me css */
 .introduction{
-  font-size: 20px;
-  font-display:inherit;
-  line-height: 1.6em;
-  height: 500px;
-  width: 500px;
-  display:flex;
-  justify-content: end;
-  align-items: start;
-  position: relative;
-  bottom: 400px;
-  left:950px
+font-size: 20px;
+margin: 30px;
+text-align: center;
+padding: 10px;
+ margin-top: 0px;
 }
-.introduction {
-  display: flex;
-  align-items:end;
-}
+
+
+
+
 
 .pic img{
   position: relative;
-  right: 120px;
-  top: 30px;
+  right: 150px;
+  top: 50px;
+  left: 4px;
+  bottom: 10px;
   max-width: 50%;
-  width: 500px; /* Adjust the image size as needed */
+  width: 400px;
+  margin-bottom: 50px; /* Adjust the image size as needed */
+}
+.AboutMeForm{
+  height: 80px;
+  font-size:30px;
+  color: rgb(10, 0, 0);
+  text-align:center;
+  display: flex;
+  justify-content: center;
+
+}
+
+section form ul{
+  list-style-type: none;
+}
+
+.educationlogo{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0px;
+
+}
+
+ 
+/* project css */
+
+
+.project-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 2 rem ;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projectClass {
+  flex:  0 auto; 
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 20px; 
+}
+.project-container :hover{
+  background-color:#f2f6f7;
 }
 
 
+.project-card {
+
+  border-radius: 8px; 
+  overflow: hidden;
+  gap: 2rem; 
+}
+.project-card :hover{
+  background: inherit;
+
+}
+
+.project-card img {
+  width: 450px;
+ 
+}
+
+.project-card video {
+  width: 550px; 
+}
+
+.project-details {
+  padding: 20px; 
+}
+
+.project-links {
+  display: flex; 
+  gap: 10px; 
+}
+
+.project-links button {
+  background-color: #edeff2;
+  border: 1px solid black;
+  border-radius: 20px; 
+  padding: 8px 16px; 
+  margin: 0 auto;
+}
+
+.project-links button:hover {
+  background-color: #111212;
+  cursor: pointer; 
+  color: white;
+  transform: scale(1.1);
+}
+
+.project-links button a{
+  color: #070000;
+  text-decoration: none;
+}
+.project-links button a:hover {
+  background-color: #111212;
+ color: white;
+ transform: scale(1.1);
+}
+
+
+/* skill css */
+/* components/About.css */
+
+/* Container for the entire section */
+#experience {
+  padding: 20px;
+}
+
+/* Section text */
+.section__text__p1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Container for the experience details */
+.experience-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Individual details container */
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Experience sub title */
+.experience-sub-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+
+}
+
+/* Container for articles */
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* Individual article */
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px; /* Adjust width as needed */
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+/* Skill icon */
+.icon {
+  width: 70px; /* Adjust size as needed */
+  height: 70px; /* Adjust size as needed */
+  margin-bottom: 10px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+ 
+}
+
+article :hover{
+  transform: scale(1.1);
+}
+
+/* Skill title */
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  
+}
+
+/* Skill description */
+p {
+  font-size: 1rem;
+  color: #666;
+}
