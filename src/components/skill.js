@@ -21,7 +21,8 @@ function skill() {
 
 
     
-    return (<section id="experience">
+    return (
+    <section id="skill">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Skills</h1>
     <div class="experience-details-container">

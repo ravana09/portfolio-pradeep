@@ -1,10 +1,11 @@
 // components/About.js
 import React from "react";
-import Education from "../assests/education.png"
+import Education from "../assests/education.png";
 
-function About() {
+
+function Experience() {
   return (
-    <section id="about">
+    <section id="experience">
       <h2>About Me</h2>
       <form className="AboutMeForm">
           <ul >
@@ -28,7 +29,7 @@ function About() {
         is incubated with IIT Madras. My goal is to Build a successful career as
         a software programmer. I have technical expertise in web development,
         software development, frameworks, HTML, CSS, JavaScript, mongodb,react
-        js and node js. 
+        js and node js. I’m currently excited to use my technical skill and knowledge in a reputable organization like yours.
       </p>
       </div>
       </div>
@@ -36,4 +37,4 @@ function About() {
   );
 }
 
-export default About;
+export default Experience;

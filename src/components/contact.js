@@ -27,7 +27,7 @@ function Contact() {
             <li>
               <a
                 href="https://www.linkedin.com/in/pradeep-s-8512a72a3/"
-                target="_blank"
+               
                 rel="noopener noreferrer"
               >
                 <img class="Aboutlogo" src={linkedinIcon} alt="LinkedIn" />

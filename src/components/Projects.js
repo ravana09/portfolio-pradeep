@@ -17,8 +17,8 @@ function Projects() {
               <h5>Project 1</h5>
               
               <div className="project-links">
-                <button><a href="https://github.com/ravana09/AsyncDay-5-dictionary-.git" target="_blank" rel="noopener noreferrer">GitHub</a></button>
-                <button><a href="https://astounding-fox-aed2cc.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
+                <button><a href="https://github.com/ravana09/AsyncDay-5-dictionary-.git" rel="noopener noreferrer">GitHub</a></button>
+                <button><a href="https://astounding-fox-aed2cc.netlify.app"  rel="noopener noreferrer">Live Demo</a></button>
               </div>
             </div>
           </div>
@@ -30,8 +30,8 @@ function Projects() {
               <h5>Project 2</h5>
               
               <div className="project-links">
-                <button><a href="https://github.com/ravana09/AsyncDay-5-dictionary-.git" target="_blank" rel="noopener noreferrer">GitHub</a></button>
-                <button><a href="https://astounding-fox-aed2cc.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
+                <button><a href="https://github.com/ravana09/AsyncDay-5-dictionary-.git"  rel="noopener noreferrer">GitHub</a></button>
+                <button><a href="https://astounding-fox-aed2cc.netlify.app"  rel="noopener noreferrer">Live Demo</a></button>
               </div>
             </div>
           </div>
@@ -43,8 +43,8 @@ function Projects() {
               <h5>Project 3</h5>
               
               <div className="project-links">
-                <button><a href="https://github.com/ravana09/AsyncDay-5-dictionary-.git" target="_blank" rel="noopener noreferrer">GitHub</a></button>
-                <button><a href="https://astounding-fox-aed2cc.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a></button>
+                <button><a href="https://github.com/ravana09/AsyncDay-5-dictionary-.git"  rel="noopener noreferrer">GitHub</a></button>
+                <button><a href="https://astounding-fox-aed2cc.netlify.app"  rel="noopener noreferrer">Live Demo</a></button>
               </div>
             </div>
           </div>

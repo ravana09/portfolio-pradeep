@@ -1,33 +1,43 @@
-// components/Header.js
 import React from "react";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll"; // Import ScrollLink from react-scroll
 import "../App.css";
+
 
 function Header() {
   return (
     <header className="header">
-      {" "}
-      {/* Use CSS class here */}
-      <h1 className="header-h1">Pradeep.S</h1> {/* Use CSS class here */}
+      <h1 className="header-h1">Pradeep.S</h1>
       <nav>
         <ul>
           <li>
             <Link to="/about">Home</Link>
           </li>
+       
           <li>
-            <Link to="/experience">About me</Link>
-          </li>
-
-          <li>
-            <Link to="/skill">Skill</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
+            
+            <ScrollLink to="experience" smooth={true} duration={500}>
+              About me
+            </ScrollLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            {/* Replace Link with ScrollLink */}
+            <ScrollLink to="skill" smooth={true} duration={500}>
+              Skill
+            </ScrollLink>
           </li>
-          {/* Corrected path */}
+          <li>
+            {/* Replace Link with ScrollLink */}
+            <ScrollLink to="projects" smooth={true} duration={500}>
+              Projects
+            </ScrollLink>
+          </li>
+          <li>
+            {/* Replace Link with ScrollLink */}
+            <ScrollLink to="contact" smooth={true} duration={500}>
+              Contact
+            </ScrollLink>
+          </li>
         </ul>
       </nav>
     </header>
@@ -35,3 +45,4 @@ function Header() {
 }
 
 export default Header;
+
