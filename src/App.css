@@ -284,12 +284,15 @@ footer {
 
 /* contact css */
 #contact{
-  margin: 100px;
-  margin-bottom: 0px;
+  margin: 0 auto ;
+  margin-top:150px;
+  margin-bottom: 150px;
   background-color: inherit;
   height: 350px;
   text-align: center;
-  padding: 50px 0;
+  padding: 150px 0;
+  padding-top: 50px;
+  
 }
 h5{
   color: #666;
