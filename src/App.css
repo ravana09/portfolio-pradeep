@@ -28,6 +28,7 @@ a .btn {
 }
 
 .App-header {
+
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -84,7 +85,7 @@ header {
   color: #151414;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   padding: 20px;
 }
@@ -123,7 +124,8 @@ header nav ul {
 header nav ul li {
   display: inline;
   margin-right: 20px;
-  font-size: 30px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 header nav ul li a {
@@ -254,12 +256,14 @@ footer {
 }
 .aboutContactButton a {
   color: black ;
+  text-decoration: none;
 }
 
 
 .social-icons a {
   display: inline-block;
-  margin-right: 10px; /* Adjust spacing between icons */
+  margin-right: 10px;
+  text-decoration: none;
 }
 
 .social-icons img {
@@ -300,7 +304,6 @@ h5{
 
 section h2{
   color: #3a3838;
-  text-decoration:underline;
 }
 .contact-list {
   list-style: none;
@@ -370,17 +373,25 @@ padding: 10px;
   display: flex;
   justify-content: center;
 
+
 }
+
+
 
 section form ul{
   list-style-type: none;
 }
 
-.educationlogo{
+.educationlogo {
   width: 60px;
   height: 60px;
   margin: 0 auto;
   padding: 0px;
+  position: relative;
+  right: 10px;
+
+  top:20px;
+  
 
 }
 
@@ -400,14 +411,15 @@ section form ul{
 
 .projectClass {
   flex:  0 auto; 
-  width: 400px;
+  width: 380px;
   height: 500px;
   padding: 20px;
   border: 2px solid gray;
   border-radius: 20px; 
 }
 .project-container :hover{
-  background-color:#f2f6f7;
+  background-color:#a7a8a8;
+ 
 }
 
 
@@ -423,7 +435,10 @@ section form ul{
 }
 
 .project-card img {
-  width: 450px;
+  width: 400px;
+  height: 280px;
+  position: relative;
+  right: 20px;
  
 }
 
@@ -514,6 +529,7 @@ section form ul{
   flex-wrap: wrap;
   justify-content: center;
   gap: 4rem;
+  margin-bottom: 20px;
 }
 
 /* Individual article */

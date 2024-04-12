@@ -7,7 +7,7 @@ import "../App.css";
 function Header() {
   return (
     <header className="header">
-      <h1 className="header-h1">Pradeep.S</h1>
+      {/* <h1 className="header-h1">Pradeep.S</h1> */}
       <nav>
         <ul>
           <li>

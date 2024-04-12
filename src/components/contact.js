@@ -2,7 +2,7 @@
 import React from "react";
 import emailLogo from "../assests/maili.png";
 import phoneLogo from "../assests/phone .png";
-import linkedinIcon from "../assests/icons8-linkedin-50.png";
+import linkedinIcon from "../assests/linkedin.png";
 import githubIcon from "../assests/githubImage.png";
 import '../App.css'; 
 
@@ -10,7 +10,7 @@ function Contact() {
   return (
     <section id="contact">
       <h5>Get in touch </h5>
-      <h2>Contact me </h2>
+      {/* <h2>Contact me </h2> */}
       <form>
        
           <ul class="contact-list">

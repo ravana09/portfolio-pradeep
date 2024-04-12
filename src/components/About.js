@@ -30,6 +30,7 @@ function About() {
         <div>
           <img className='aboutImg' src={AboutImage} alt="avatar" />
         </div>
+        <div>
         <div className="text-container">
           <h2>Pradeep</h2>
           <p>
@@ -52,6 +53,7 @@ function About() {
               <img className='Aboutlogo' src={githubIcon} alt="GitHub" />
             </a>
           </div>
+        </div>
         </div>
       </div>
     </section>

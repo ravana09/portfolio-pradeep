@@ -1,6 +1,8 @@
 // components/About.js
 import React from "react";
 import Education from "../assests/education.png";
+import AboutImg from '../assests/sample/AboutME.png';
+import "../App.css";
 
 
 function Experience() {
@@ -14,7 +16,9 @@ function Experience() {
         </form>
       <div>
         <div  className="pic">
-        <img src="https://wallpapers.com/images/hd/luffy-3200-x-1800-picture-ao6tt30yuxjuvjlk.jpg" alt="luffy image "></img>
+        {/* <img src="https://wallpapers.com/images/hd/luffy-3200-x-1800-picture-ao6tt30yuxjuvjlk.jpg" alt="luffy image "></img> */}
+        <img src={AboutImg} alt="luffy image "></img>
+      
       
         </div>
       <div className="introduction ">
