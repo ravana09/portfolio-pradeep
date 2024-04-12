@@ -3,7 +3,7 @@ import '../App.css';
 import AboutImage from'../assests/sample/aboutImage.png'
 import linkedinIcon from '../assests/icons8-linkedin-50.png'; 
 import githubIcon from '../assests/githubImage.png';
-import resumeFile from '../assests/pradeep-resume.pdf'; // Import your resume file
+import resumeFile from '../assests/Pradeep-Resume.pdf'; // Import your resume file
 import { Link } from 'react-router-dom';
 
 function About() {
@@ -15,7 +15,7 @@ function About() {
     // Set the href attribute to the URL of the resume file
     link.href = resumeFile;
     // Set the download attribute to force download
-    link.setAttribute('download', 'Pradeep-resume.pdf');
+    link.setAttribute('download', 'Pradeep-Resume.pdf');
     // Append the anchor element to the body
     document.body.appendChild(link);
     // Trigger a click event on the anchor element
