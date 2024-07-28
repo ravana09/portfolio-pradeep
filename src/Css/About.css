@@ -1,0 +1,94 @@
+
+
+.ABout_Row {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+   
+}
+
+.About_Hello {
+    margin: 0px;
+    display: inline-block;
+    background: linear-gradient(to right, #3a0a49, #394786, #307fb6, #4fb7d8, #74e3e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight:200;
+    font-family:'Times New Roman', Times, serif
+    
+
+    
+}
+
+
+.line {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slide-in 1s ease-out forwards;
+}
+
+.line:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.line:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.line:nth-child(3) {
+    animation-delay: 3s;
+}
+.line:nth-child(4) {
+    animation-delay: 4s;
+}
+.line:nth-child(5) {
+    animation-delay: 5s;
+}
+.line:nth-child(6) {
+    animation-delay: 5s;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.About_Pradeep {
+    
+    margin-left: 10px;
+    background: linear-gradient(to right, #ed2603, #d34108, #d3a005, #2e3238, #72787c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.About_Pradeep :hover {
+    transform: scaleY(1.1);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    font-size: 100px;
+}
+
+.aboutImg {
+    border: 2px solid black;
+    margin: 50% 0%;
+    background-color: chartreuse;
+}
+
+.text-container {
+    margin: 50% 0%;
+}
+
+.aboutButton{
+    margin-right: 10px;
+    margin-top: 20px;
+}
